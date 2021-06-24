@@ -4,7 +4,7 @@ Ecommerce Website using MERN(MongoDb Express  React Node)
 
 Api
 
-Signup Api Developed
+Signup Api
 Response(Result)
 ![image](https://user-images.githubusercontent.com/61350099/123210273-64de0700-d4df-11eb-997c-141abb387385.png)
 
