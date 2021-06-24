@@ -3,7 +3,7 @@ const User=require('../model(Databse)/user');
 const router=express.Router();
 
 
-router.post('/signin',(req,res)=>{
+router.post('/sign',(req,res)=>{
 
 
 });
@@ -39,7 +39,8 @@ router.post('/signup',(req,res)=>{
             if(data)
             {
                 return res.status(201).json({
-                    user:data
+                    //user:data   //  to get in resp
+                    message :"user created sucessfully"
                 })
             }
 
