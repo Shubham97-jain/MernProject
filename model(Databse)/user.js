@@ -44,7 +44,7 @@ const userscema=new mongoose.Schema({
       {
           type:String,
           enum:['user','admin'],
-          default:'admin'
+          default:'user'
       }
 },{timestamps:true});
 
